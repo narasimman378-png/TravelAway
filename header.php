@@ -1,8 +1,11 @@
 <nav class="navbar navbar-expand-lg tw-nav">
   <div class="container-fluid">
     <a class="navbar-brand tw-brand" href="index.php">
-      <span class="mark"><i class="bi bi-compass"></i></span>
-      Tideway
+      <span class="">
+      <img class="down" src="images/travel-agency-lite_01.png" width="50" alt="">
+      <img class="down02" src="images/travel-agency-main.png" width="50" alt="">
+      </span>
+      Travel Away
     </a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#twNav">
       <i class="bi bi-list fs-2"></i>

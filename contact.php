@@ -18,13 +18,24 @@
 
 <?php include "header.php" ?>
 
+<div class="banner_5">
+<svg class="footer-compass" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="1"/>
+              <path d="M100 10 L108 100 L100 190 L92 100 Z" fill="#ffffff"/>
+              <path d="M10 100 L100 92 L190 100 L100 108 Z" fill="#ffffff" opacity=".6"/>
+            </svg>
 <header class="page-header">
   <div class="container-fluid">
-    <span class="breadcrumb-mono">Tideway / Contact</span>
+    <span class="breadcrumb-mono">Travel Away / Contact</span>
     <h1>Tell us the coastline. We'll check the tide table.</h1>
     <p class="hero-lede mt-3">Fill in the brief below and a trip designer will reply within one business day with availability and a first-pass itinerary — no obligation.</p>
   </div>
 </header>
+
+</div>
+
+
 
 <section style="padding-top:1rem;">
   <div class="container-fluid">
@@ -120,7 +131,7 @@
           <div class="feature-icon"><i class="bi bi-envelope"></i></div>
           <div>
             <h4>Email</h4>
-            <p>hello@tidewaytravel.com — replies within one business day</p>
+            <p>hello@travelaway.com — replies within one business day</p>
           </div>
         </div>
         <div class="feature-item mb-4">

@@ -18,13 +18,23 @@
 
 <?php include "header.php" ?>
 
+<div class="banner_2">
+<svg class="footer-compass" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="1"/>
+              <path d="M100 10 L108 100 L100 190 L92 100 Z" fill="#ffffff"/>
+              <path d="M10 100 L100 92 L190 100 L100 108 Z" fill="#ffffff" opacity=".6"/>
+            </svg>
 <header class="page-header">
   <div class="container-fluid">
-    <span class="breadcrumb-mono">Tideway / Packages</span>
+    <span class="breadcrumb-mono">Travel Away / Packages</span>
     <h1>Six itineraries, each built around a tide table.</h1>
     <p class="hero-lede mt-3">Every package below lists what's included, what's not, and the exact number of days on the water. Open one for the full day-by-day plan.</p>
   </div>
 </header>
+
+</div>
+
 
 <section style="padding-top:1rem;">
   <div class="container-fluid">
@@ -40,14 +50,14 @@
 
       
       <div class="col-md-6 col-lg-4 filter-col" data-reveal>
-        <div class="pass-card" data-filter-item="europe island">
+        <div class="pass-card" data-filter-item="europe">
           <div class="scene">
-            <span class="tag">Greece · 6 days</span>
-            <img src="images/Santorini.jpg" alt="Santorini Sunset Escape">
+            <span class="tag">USA · 6 days</span>
+            <img src="images/usa.webp" alt="USA">
           </div>
           <div class="body">
             <div class="row-top">
-              <h3>Santorini Sunset Escape</h3>
+              <h3>USA</h3>
               <div class="price">$2,450<small>per person</small></div>
             </div>
             <div class="coord">36.3932° N · 25.4615° E</div>
@@ -65,11 +75,11 @@
         <div class="pass-card" data-filter-item="europe">
           <div class="scene">
             <span class="tag">Italy · 7 days</span>
-            <img src="images/baners.jpg" alt="Amalfi Coast Drive">
+            <img src="images/italy.webp" alt="italy">
           </div>
           <div class="body">
             <div class="row-top">
-              <h3>Amalfi Coast Drive</h3>
+              <h3>Italy</h3>
               <div class="price">$2,890<small>per person</small></div>
             </div>
             <div class="coord">40.6340° N · 14.6027° E</div>
@@ -87,7 +97,7 @@
         <div class="pass-card" data-filter-item="asia island">
           <div class="scene">
             <span class="tag">Maldives · 5 days</span>
-            <img src="images/mauritius.jpg" alt="Maldives Overwater Retreat">
+            <img src="images/maldivs.webp" alt="Maldives Overwater Retreat">
           </div>
           <div class="body">
             <div class="row-top">
@@ -108,12 +118,12 @@
       <div class="col-md-6 col-lg-4 filter-col" data-reveal>
         <div class="pass-card" data-filter-item="asia">
           <div class="scene">
-            <span class="tag">Indonesia · 8 days</span>
-            <img src="images/vietnam.jpg" alt="Bali Wellness Journey">
+            <span class="tag">China · 8 days</span>
+            <img src="images/hogkong.webp" alt="china hong kong">
           </div>
           <div class="body">
             <div class="row-top">
-              <h3>Bali Wellness Journey</h3>
+              <h3>China Hong Kong</h3>
               <div class="price">$2,180<small>per person</small></div>
             </div>
             <div class="coord">8.3405° S · 115.0920° E</div>
@@ -130,12 +140,12 @@
       <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="80">
         <div class="pass-card" data-filter-item="europe">
           <div class="scene">
-            <span class="tag">Norway · 9 days</span>
-            <img src="images/netherland.jpg" alt="Norwegian Fjords Explorer">
+            <span class="tag">France · 9 days</span>
+            <img src="images/france.webp" alt="France">
           </div>
           <div class="body">
             <div class="row-top">
-              <h3>Norwegian Fjords Explorer</h3>
+              <h3>France</h3>
               <div class="price">$3,990<small>per person</small></div>
             </div>
             <div class="coord">60.9721° N · 8.4689° E</div>
@@ -152,12 +162,12 @@
       <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
         <div class="pass-card" data-filter-item="africa island">
           <div class="scene">
-            <span class="tag">Tanzania · 6 days</span>
-            <img src="images/baners.jpg" alt="Zanzibar Island Hopping">
+            <span class="tag">Mauritius · 6 days</span>
+            <img src="images/mauritus.webp" alt="Mauritius">
           </div>
           <div class="body">
             <div class="row-top">
-              <h3>Zanzibar Island Hopping</h3>
+              <h3>Mauritius</h3>
               <div class="price">$2,340<small>per person</small></div>
             </div>
             <div class="coord">6.1659° S · 39.1917° E</div>
@@ -169,6 +179,143 @@
           </div>
         </div>
       </div>
+
+
+
+      <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="asia">
+          <div class="scene">
+            <span class="tag">Russia · 6 days</span>
+            <img src="images/moscow.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>Moscow</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="asia">
+          <div class="scene">
+            <span class="tag">India · 6 days</span>
+            <img src="images/india.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>India</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="africa">
+          <div class="scene">
+            <span class="tag">Congo · 6 days</span>
+            <img src="images/congo.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>Congo</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="africa">
+          <div class="scene">
+            <span class="tag">Keny · 6 days</span>
+            <img src="images/kenya.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>Kenya</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="africa">
+          <div class="scene">
+            <span class="tag">Madagascar · 6 days</span>
+            <img src="images/madagascar.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>Madagascar</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <div class="col-md-6 col-lg-4 filter-col" data-reveal data-reveal-delay="160">
+        <div class="pass-card" data-filter-item="asia island">
+          <div class="scene">
+            <span class="tag">Andhaman Nico Bar · 6 days</span>
+            <img src="images/andaman.webp" alt="Mauritius">
+          </div>
+          <div class="body">
+            <div class="row-top">
+              <h3>Andhaman Nico Bar</h3>
+              <div class="price">$2,340<small>per person</small></div>
+            </div>
+            <div class="coord">6.1659° S · 39.1917° E</div>
+            <p>Stone Town alleys, a dhow-sailed sandbank, and two spice-farm mornings.</p>
+            <div class="pass-notch">
+              <span class="chip"><i class="bi bi-clock me-1"></i>6 days</span>
+              <a href="package-details.php" class="btn btn-outline-ocean btn-sm-pill">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </div>

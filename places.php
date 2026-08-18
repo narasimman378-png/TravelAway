@@ -17,7 +17,13 @@
 <body>
 
 <?php include "header.php" ?>
-
+<div class="banner_3">
+<svg class="footer-compass" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="1"/>
+              <path d="M100 10 L108 100 L100 190 L92 100 Z" fill="#ffffff"/>
+              <path d="M10 100 L100 92 L190 100 L100 108 Z" fill="#ffffff" opacity=".6"/>
+            </svg>
 <header class="page-header">
   <div class="container-fluid">
     <span class="breadcrumb-mono">Tideway / Places</span>
@@ -25,6 +31,9 @@
     <p class="hero-lede mt-3">Eight of the forty-two places we plan trips to, plotted with their exact coordinates. Tap a filter to narrow by region, or open Packages to see a full itinerary.</p>
   </div>
 </header>
+
+</div>
+
 
 <section style="padding-top:1rem;">
   <div class="container-fluid">
@@ -47,10 +56,10 @@
         <div class="place-row" data-filter-item="europe">
           <div class="idx">01</div>
           <div class="thumb">
-            <img src="images/Santorini.jpg" alt="Santorini">
+            <img src="images/usa.webp" alt="usa">
           </div>
           <div class="meta">
-            <h4>Santorini, Greece</h4>
+            <h4>New York, USA</h4>
             <p class="desc">Whitewashed cliffs above the caldera, best watched from a terrace at sunset.</p>
           </div>
           <div class="coord d-none d-sm-inline-flex">36.3932° N · 25.4615° E</div>
@@ -61,7 +70,7 @@
         <div class="place-row" data-filter-item="europe">
           <div class="idx">02</div>
           <div class="thumb">
-            <img src="images/baners.jpg" alt="Amalfi Coast">
+            <img src="images/italy.webp" alt="Amalfi Coast">
           </div>
           <div class="meta">
             <h4>Amalfi Coast, Italy</h4>
@@ -75,7 +84,7 @@
         <div class="place-row" data-filter-item="asia">
           <div class="idx">03</div>
           <div class="thumb">
-            <img src="images/mauritius.jpg" alt="Maldives">
+            <img src="images/maldivs.webp" alt="Maldives">
           </div>
           <div class="meta">
             <h4>Maldives</h4>
@@ -89,10 +98,25 @@
         <div class="place-row" data-filter-item="asia">
           <div class="idx">04</div>
           <div class="thumb">
-            <img src="images/vietnam.jpg" alt="Bali">
+            <img src="images/mauritus.webp" alt="Bali">
           </div>
           <div class="meta">
-            <h4>Bali, Indonesia</h4>
+            <h4>Mauritius</h4>
+            <p class="desc">Rice-terrace mornings and coastal temples, with reef breaks by afternoon.</p>
+          </div>
+          <div class="coord d-none d-sm-inline-flex">8.3405° S · 115.0920° E</div>
+        </div>
+        </div>
+
+
+        <div class="filter-col" data-reveal>
+        <div class="place-row" data-filter-item="asia">
+          <div class="idx">05</div>
+          <div class="thumb">
+            <img src="images/india.webp" alt="Bali">
+          </div>
+          <div class="meta">
+            <h4>India</h4>
             <p class="desc">Rice-terrace mornings and coastal temples, with reef breaks by afternoon.</p>
           </div>
           <div class="coord d-none d-sm-inline-flex">8.3405° S · 115.0920° E</div>
@@ -101,12 +125,12 @@
 
         <div class="filter-col" data-reveal>
         <div class="place-row" data-filter-item="europe">
-          <div class="idx">05</div>
+          <div class="idx">06</div>
           <div class="thumb">
             <img src="images/netherland.jpg" alt="Norwegian Fjords">
           </div>
           <div class="meta">
-            <h4>Norwegian Fjords</h4>
+            <h4>Netherland</h4>
             <p class="desc">Glacier-cut water between cliffs a thousand metres tall, sailed at slow speed.</p>
           </div>
           <div class="coord d-none d-sm-inline-flex">60.9721° N · 8.4689° E</div>
@@ -115,12 +139,42 @@
 
         <div class="filter-col" data-reveal>
         <div class="place-row" data-filter-item="africa">
-          <div class="idx">06</div>
+          <div class="idx">07</div>
           <div class="thumb">
-            <img src="images/baners.jpg" alt="Zanzibar">
+            <img src="images/kenya.webp" alt="Zanzibar">
           </div>
           <div class="meta">
-            <h4>Zanzibar, Tanzania</h4>
+            <h4>kenya</h4>
+            <p class="desc">Spice-town alleys by morning, dhow-sailed sandbanks by low tide.</p>
+          </div>
+          <div class="coord d-none d-sm-inline-flex">6.1659° S · 39.1917° E</div>
+        </div>
+        </div>
+
+
+        <div class="filter-col" data-reveal>
+        <div class="place-row" data-filter-item="africa">
+          <div class="idx">08</div>
+          <div class="thumb">
+            <img src="images/congo.webp" alt="Zanzibar">
+          </div>
+          <div class="meta">
+            <h4>Congo</h4>
+            <p class="desc">Spice-town alleys by morning, dhow-sailed sandbanks by low tide.</p>
+          </div>
+          <div class="coord d-none d-sm-inline-flex">6.1659° S · 39.1917° E</div>
+        </div>
+        </div>
+
+
+        <div class="filter-col" data-reveal>
+        <div class="place-row" data-filter-item="africa">
+          <div class="idx">09</div>
+          <div class="thumb">
+            <img src="images/madagascar.webp" alt="Zanzibar">
+          </div>
+          <div class="meta">
+            <h4>Madagascar</h4>
             <p class="desc">Spice-town alleys by morning, dhow-sailed sandbanks by low tide.</p>
           </div>
           <div class="coord d-none d-sm-inline-flex">6.1659° S · 39.1917° E</div>
@@ -129,9 +183,9 @@
 
         <div class="filter-col" data-reveal>
         <div class="place-row" data-filter-item="americas">
-          <div class="idx">07</div>
+          <div class="idx">10</div>
           <div class="thumb">
-            <img src="images/baners.jpg" alt="Big Sur">
+            <img src="images/usa01.webp" alt="Big Sur">
           </div>
           <div class="meta">
             <h4>Big Sur, California</h4>
@@ -143,9 +197,9 @@
 
         <div class="filter-col" data-reveal>
         <div class="place-row" data-filter-item="oceania">
-          <div class="idx">08</div>
+          <div class="idx">11</div>
           <div class="thumb">
-            <img src="images/mauritius.jpg" alt="The Whitsundays">
+            <img src="images/aus.webp" alt="The Whitsundays">
           </div>
           <div class="meta">
             <h4>The Whitsundays, Australia</h4>

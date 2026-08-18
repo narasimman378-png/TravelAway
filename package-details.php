@@ -17,8 +17,14 @@
 <body>
 
 <?php include "header.php" ?>
-
-<header class="page-header" style="padding-bottom:2.5rem;">
+<div class="banner_4">
+<svg class="footer-compass" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="1"/>
+              <path d="M100 10 L108 100 L100 190 L92 100 Z" fill="#ffffff"/>
+              <path d="M10 100 L100 92 L190 100 L100 108 Z" fill="#ffffff" opacity=".6"/>
+            </svg>
+<header class="page-header">
   <div class="container-fluid">
     <span class="breadcrumb-mono"><a href="packages.php" class="text-ocean">Packages</a> / Amalfi Coast Drive</span>
     <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mt-2">
@@ -35,6 +41,9 @@
     </div>
   </div>
 </header>
+
+</div>
+
 
 <section style="padding-top:0;">
   <div class="container-fluid">

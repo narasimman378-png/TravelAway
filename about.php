@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About — Trevel Away Tourisum</title>
-<meta name="description" content="Tideway Travel started as a hand-drawn tide chart in 2014. Meet the studio designing coastal and island journeys today.">
+<meta name="description" content="Travel Away Travel started as a hand-drawn tide chart in 2014. Meet the studio designing coastal and island journeys today.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +17,23 @@
 <body>
 
 <?php include "header.php" ?>
-
+<div class="banner_1">
+<svg class="footer-compass" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="70" stroke="#ffffff" stroke-width="1"/>
+              <path d="M100 10 L108 100 L100 190 L92 100 Z" fill="#ffffff"/>
+              <path d="M10 100 L100 92 L190 100 L100 108 Z" fill="#ffffff" opacity=".6"/>
+            </svg>
 <header class="page-header">
   <div class="container-fluid">
-    <span class="breadcrumb-mono">Tideway / About</span>
+    <span class="breadcrumb-mono">Travel Away / About</span>
     <h1>Eleven years of reading tide charts for a living.</h1>
-    <p class="hero-lede mt-3">We started as one person with a paper tide table and a stubborn belief that a good coastal trip is mostly a scheduling problem. It still is — we've just gotten better at solving it.</p>
+    <p class="hero-lede mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor aliquaLorem ipsum dolor sit amet, consectetur</p>
   </div>
 </header>
+
+</div>
+
 
 
 <section>
@@ -33,8 +42,8 @@
       <div class="col-lg-6" data-reveal>
         <span class="eyebrow">The origin</span>
         <h2>It began with a missed sandbank.</h2>
-        <p style="color:#3c6883;">In 2014, our founder Elin Marsh sailed six hours to a Zanzibar sandbank that was already underwater by the time the group arrived — nobody had checked the tide table against the ferry schedule. She went home, built a spreadsheet that cross-referenced both, and started planning trips for friends around it.</p>
-        <p style="color:#3c6883;">That spreadsheet is now the core of how Tideway plans every itinerary: tide, transit and daylight, checked against each other before a single hotel gets booked. The studio grew slowly, on referrals, and we've kept every trip small enough that the plan can still bend on the day if the water asks for it.</p>
+        <p style="color:#3c6883;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor aliqua</p>
+        <p style="color:#3c6883;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor aliqua</p>
         <div class="d-flex gap-4 mt-4 flex-wrap">
           <div class="stat-block"><div class="num"><span data-count-to="11">0</span></div><div class="lbl">Years planning</div></div>
           <div class="stat-block"><div class="num"><span data-count-to="42">0</span></div><div class="lbl">Coastlines charted</div></div>
@@ -106,7 +115,7 @@
       <div class="col-lg-8" data-reveal data-reveal-delay="120">
         <div class="day-item">
           <div class="day-marker">14</div>
-          <h5>Tideway starts as a spreadsheet</h5>
+          <h5>Travel Away starts as a spreadsheet</h5>
           <p>Elin plans her first tide-and-transit itinerary for a group of six friends heading to Zanzibar.</p>
         </div>
         <div class="day-item">
@@ -145,7 +154,7 @@
       <div class="col-sm-6 col-lg-3" data-reveal>
         <div class="pass-card">
           <div class="scene">
-            <img src="images/baners.jpg" alt="Elin Marsh">
+            <img src="images/18778.jpg" alt="Elin Marsh">
           </div>
           <div class="body">
             <h3 style="font-size:1.05rem;">Elin Marsh</h3>
@@ -156,7 +165,7 @@
       <div class="col-sm-6 col-lg-3" data-reveal data-reveal-delay="80">
         <div class="pass-card">
           <div class="scene">
-            <img src="images/mauritius.jpg" alt="Kofi Owusu">
+            <img src="images/5677.jpg" alt="Kofi Owusu">
           </div>
           <div class="body">
             <h3 style="font-size:1.05rem;">Kofi Owusu</h3>
@@ -167,7 +176,7 @@
       <div class="col-sm-6 col-lg-3" data-reveal data-reveal-delay="160">
         <div class="pass-card">
           <div class="scene">
-            <img src="images/Santorini.jpg" alt="Saanvi Rao">
+            <img src="images/16320.jpg" alt="Saanvi Rao">
           </div>
           <div class="body">
             <h3 style="font-size:1.05rem;">Saanvi Rao</h3>
@@ -178,7 +187,7 @@
       <div class="col-sm-6 col-lg-3" data-reveal data-reveal-delay="240">
         <div class="pass-card">
           <div class="scene">
-            <img src="images/netherland.jpg" alt="Noah Bergstrom">
+            <img src="images/20597.jpg" alt="Noah Bergstrom">
           </div>
           <div class="body">
             <h3 style="font-size:1.05rem;">Noah Bergström</h3>

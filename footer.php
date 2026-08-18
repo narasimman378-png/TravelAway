@@ -1,8 +1,14 @@
+
+<div class="ed_footer">
+
 <footer class="tw-footer">
   <div class="container-fluid">
     <div class="row g-5">
       <div class="col-lg-4">
-        <div class="footer-brand"><span class="mark"><i class="bi bi-compass"></i></span>Tideway</div>
+        <div class="footer-brand"><span class="">
+
+        <img src="images/travel-agency-lite_01.png" width="50" alt="">
+        </span>Travel Away</div>
         <p class="mt-3" style="max-width:26rem;">A small studio of trip designers building coastal and island journeys, charted down to the coordinate, since 2014.</p>
         <div class="d-flex gap-2 mt-3">
           <a href="#" class="social-dot" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
@@ -33,14 +39,17 @@
         <h5>Reach us</h5>
         <ul class="list-unstyled">
           <li><i class="bi bi-geo-alt me-2"></i>14 Harbourfront Row, Bristol, UK</li>
-          <li><i class="bi bi-envelope me-2"></i>hello@tidewaytravel.com</li>
-          <li><i class="bi bi-telephone me-2"></i>+44 117 555 0142</li>
+          <li><i class="bi bi-envelope me-2"></i>hello@travelaway.com</li>
+          <li><i class="bi bi-telephone me-2"></i>+12345678910</li>
         </ul>
+        
       </div>
     </div>
     <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2">
       <span>© <span id="year"></span> Travel Away. All rights reserved.</span>
-      <span class="text-mono">51.4545° N · 2.5879° W — studio hq</span>
+      <!-- <span class="text-mono">51.4545° N · 2.5879° W — studio hq</span> -->
     </div>
   </div>
 </footer>
+
+</div>
