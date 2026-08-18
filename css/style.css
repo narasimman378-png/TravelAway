@@ -134,7 +134,7 @@ a:hover{ color:var(--deep-blue); }
 }
 
 .btn-outline-ocean{
-  background:transparent;
+  background:#136093;
       border: 1px solid #ffffff;
     color: #ffffff;
 }
